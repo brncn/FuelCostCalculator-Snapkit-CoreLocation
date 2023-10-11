@@ -6,5 +6,6 @@
 *EN:* If you enter the provinces you are traveling to, the average fuel consumption and the liter price according to your fuel type, it will calculate the average fuel cost for you.
 
 
-![rsz_sim1](https://github.com/brncn/FuelCostCalculator/assets/103958395/950607b9-4f03-4a2b-b617-24c055e9c0d2)
-![rsz_sim2](https://github.com/brncn/FuelCostCalculator/assets/103958395/39ba7564-7af5-45d6-9243-41f0777dfa9a)
+
+![rsz_sim1](https://github.com/brncn/FuelCostCalculator-Snapkit-CoreLocation/assets/103958395/47ad0b5e-b8a5-46be-b72d-3014fb951a05)
+![rsz_sim2](https://github.com/brncn/FuelCostCalculator-Snapkit-CoreLocation/assets/103958395/6ed580c7-03ba-41dc-83ab-864f8c4ef50c)
