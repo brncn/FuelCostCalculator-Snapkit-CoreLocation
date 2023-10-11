@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 432269212CA7661476954A7A4DAA814D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+				942DFFF130A9500FD868DB7E68CB3859 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F61F3825649DF1C965C50DD60F2DD45 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CDAF2B0D455B5B228E3FCFB22D95FA /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-dummy.m */; };
+		110F075DB37030CC4809844E6213D1E7 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E44840C220E12405338781C152AFC8 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4159DCEDB1F5C89840A3B463E70A0CA9 /* Pods-FuelCostCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D1DD621E94FB1A24556932C35EE5A3 /* Pods-FuelCostCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		598360B8D013368EA92629037B382D07 /* Pods-FuelCostCalculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB64E7577EA52AC7C10EA05E0390C535 /* Pods-FuelCostCalculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80FD1E07C4B89D0DD4CB10E17B868D9F /* Pods-FuelCostCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EAE19C1E1B36FC97BEA80D7AE1E20E /* Pods-FuelCostCalculator-dummy.m */; };
+		92BD178D7F8EC1A5B2DF21DED95702B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DC07086B40F0EAF684A53E7A639E2001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E210A31CC7357C978F45EE5816C525CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E566EF09030866B69D38C646666452C8 /* Pods-FuelCostCalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D3E8F0FCB059AB2C9DE5ADBB63524 /* Pods-FuelCostCalculatorTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D9681A06F170DE7E3FFF0EAA79CA9E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		8C890A059BC50743E49E56930EF27EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B7D5534082ED2B24BBC13F525A30F7;
+			remoteInfo = "Pods-FuelCostCalculator";
+		};
+		F8EA9A1C7609C6B0396C88FE9948D54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16141F837A8A6B3B76DB319D260A9782 /* Pods-FuelCostCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuelCostCalculator.modulemap"; sourceTree = "<group>"; };
+		1A3E4B6597B750405122A2A20D0C12EA /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests.modulemap"; sourceTree = "<group>"; };
+		2D3EAB15262C0092E3022C4C22D0CBD9 /* Pods-FuelCostCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCostCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EEE24C6D81F9874C559E9B404D5830F /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		301433380FECA3FE79152D5A623ABAB3 /* GoogleMaps-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-xcframeworks.sh"; sourceTree = "<group>"; };
+		34D1DD621E94FB1A24556932C35EE5A3 /* Pods-FuelCostCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuelCostCalculator-umbrella.h"; sourceTree = "<group>"; };
+		34E917441983C5F95D01091FC4C06EFB /* Pods-FuelCostCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCostCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		387CA8953E5BEB79C403ED6C49649E81 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuelCostCalculator-FuelCostCalculatorUITests"; path = Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E3A93C34D15783F1CA325E680E170F /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43EA7D17120008BE07A85C687DB6DD6F /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		49CDAF2B0D455B5B228E3FCFB22D95FA /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
+		49E6FD0D4F4F6B477C1B50A16A0E4011 /* Pods-FuelCostCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuelCostCalculatorTests.modulemap"; sourceTree = "<group>"; };
+		4A6575AD7DA15C8108C6C6ACB2C4D141 /* Pods-FuelCostCalculatorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuelCostCalculatorTests"; path = Pods_FuelCostCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F73CA45BA97293A16B36EECDF4C5A25 /* Pods-FuelCostCalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuelCostCalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		557D3E8F0FCB059AB2C9DE5ADBB63524 /* Pods-FuelCostCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuelCostCalculatorTests-dummy.m"; sourceTree = "<group>"; };
+		59E6FE59D5F3D68B625433CA9235E808 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		62EB6872260B1AA49D274B5A14CEFA14 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FE472706EF2800613865ECD8D438F86 /* Pods-FuelCostCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCostCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76FB7D3E01BAFF5903462826496BB512 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests-resources.sh"; sourceTree = "<group>"; };
+		873289D299AA0F7A8FC08C55761BFD49 /* Pods-FuelCostCalculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FuelCostCalculator"; path = Pods_FuelCostCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D87C3A90DA56CB58371F44F0D5A9A7 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMaps.xcframework; path = Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
+		B0E2C68EF01229FB241A750AB1332E30 /* Pods-FuelCostCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCostCalculator-Info.plist"; sourceTree = "<group>"; };
+		C2CFDD7C98B818A239B2A7424B44F82F /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsBase.xcframework; path = Base/Frameworks/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		C7EAE19C1E1B36FC97BEA80D7AE1E20E /* Pods-FuelCostCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuelCostCalculator-dummy.m"; sourceTree = "<group>"; };
+		C7EC520340E3591B35D77EFFBB49838A /* Pods-FuelCostCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuelCostCalculator-resources.sh"; sourceTree = "<group>"; };
+		CAD34EA22C323C347B44ACC33A8945F7 /* Pods-FuelCostCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCostCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		D473AA15242A22D4A9EBF1BEBB4013B1 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests-Info.plist"; sourceTree = "<group>"; };
+		DAC73FC96531CCC31CC69DE936A30001 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsCore.xcframework; path = Maps/Frameworks/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		E530F1D3A209832F1FC30C4D762FECDC /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		E604224C0DFF7E7103B0EAC3D93A3E2C /* Pods-FuelCostCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCostCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E614FAE695FAC354AAA12468C385AC8B /* Pods-FuelCostCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuelCostCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6E44840C220E12405338781C152AFC8 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		EB2D2D51E97D40022B1C4D7D49F54022 /* Pods-FuelCostCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCostCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB64E7577EA52AC7C10EA05E0390C535 /* Pods-FuelCostCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuelCostCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
+		ECBF0EDAD76E6FD43C8087C8D724ECE1 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFEE9849B7C7AD87C2D966A65C2BE002 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		F54B1D2259CF38D58396E4B8B18B2F28 /* Pods-FuelCostCalculatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelCostCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634F0161A7FA9D6628381A6E3514709E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E210A31CC7357C978F45EE5816C525CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8275D06B5499671A817FA6FA8C88DE52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BD178D7F8EC1A5B2DF21DED95702B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAA27B2D235DA8EDA1D593ECEF49AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC07086B40F0EAF684A53E7A639E2001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009EBE0FA94F9B4F1432E8A6FC58B4FF /* Pods-FuelCostCalculator-FuelCostCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E4B6597B750405122A2A20D0C12EA /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.modulemap */,
+				2EEE24C6D81F9874C559E9B404D5830F /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-acknowledgements.markdown */,
+				62EB6872260B1AA49D274B5A14CEFA14 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-acknowledgements.plist */,
+				49CDAF2B0D455B5B228E3FCFB22D95FA /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-dummy.m */,
+				D473AA15242A22D4A9EBF1BEBB4013B1 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-Info.plist */,
+				76FB7D3E01BAFF5903462826496BB512 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-resources.sh */,
+				E6E44840C220E12405338781C152AFC8 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-umbrella.h */,
+				43E3A93C34D15783F1CA325E680E170F /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig */,
+				ECBF0EDAD76E6FD43C8087C8D724ECE1 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-FuelCostCalculator-FuelCostCalculatorUITests";
+			path = "Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests";
+			sourceTree = "<group>";
+		};
+		057DFA261AFC62358E9FF1892337B4AA /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				BBCEACFD88CE966A3F4174134992F969 /* Frameworks */,
+				EAB3551C3FF2B3DB8CCFFBC1659C14FE /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		06A07CA45D1AA9FC9F23E1D2943CEC4A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DABC705A4F93441144299167BBCD013A /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0B64D21C1BB6636E77113D602D95471A /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				06A07CA45D1AA9FC9F23E1D2943CEC4A /* Base */,
+				057DFA261AFC62358E9FF1892337B4AA /* Maps */,
+				1A6C3A5BCEC44910DA49DDD175DABCE2 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		1A6C3A5BCEC44910DA49DDD175DABCE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				301433380FECA3FE79152D5A623ABAB3 /* GoogleMaps-xcframeworks.sh */,
+				59E6FE59D5F3D68B625433CA9235E808 /* GoogleMaps.debug.xcconfig */,
+				E530F1D3A209832F1FC30C4D762FECDC /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6215C8C3DA0C126F3043BDF8A1E0BB06 /* Pods-FuelCostCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				49E6FD0D4F4F6B477C1B50A16A0E4011 /* Pods-FuelCostCalculatorTests.modulemap */,
+				4F73CA45BA97293A16B36EECDF4C5A25 /* Pods-FuelCostCalculatorTests-acknowledgements.markdown */,
+				2D3EAB15262C0092E3022C4C22D0CBD9 /* Pods-FuelCostCalculatorTests-acknowledgements.plist */,
+				557D3E8F0FCB059AB2C9DE5ADBB63524 /* Pods-FuelCostCalculatorTests-dummy.m */,
+				F54B1D2259CF38D58396E4B8B18B2F28 /* Pods-FuelCostCalculatorTests-Info.plist */,
+				EB64E7577EA52AC7C10EA05E0390C535 /* Pods-FuelCostCalculatorTests-umbrella.h */,
+				E604224C0DFF7E7103B0EAC3D93A3E2C /* Pods-FuelCostCalculatorTests.debug.xcconfig */,
+				CAD34EA22C323C347B44ACC33A8945F7 /* Pods-FuelCostCalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-FuelCostCalculatorTests";
+			path = "Target Support Files/Pods-FuelCostCalculatorTests";
+			sourceTree = "<group>";
+		};
+		8099A6B2FAC64B34EA81D849C7947CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873289D299AA0F7A8FC08C55761BFD49 /* Pods-FuelCostCalculator */,
+				387CA8953E5BEB79C403ED6C49649E81 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests */,
+				4A6575AD7DA15C8108C6C6ACB2C4D141 /* Pods-FuelCostCalculatorTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBCEACFD88CE966A3F4174134992F969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D87C3A90DA56CB58371F44F0D5A9A7 /* GoogleMaps.xcframework */,
+				DAC73FC96531CCC31CC69DE936A30001 /* GoogleMapsCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				8099A6B2FAC64B34EA81D849C7947CF6 /* Products */,
+				EF1D4B757E140DC855CC3795C8F8401B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DABC705A4F93441144299167BBCD013A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2CFDD7C98B818A239B2A7424B44F82F /* GoogleMapsBase.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B64D21C1BB6636E77113D602D95471A /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8EBF71D164F76746C72B60BA5B5BCD9 /* Pods-FuelCostCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				16141F837A8A6B3B76DB319D260A9782 /* Pods-FuelCostCalculator.modulemap */,
+				E614FAE695FAC354AAA12468C385AC8B /* Pods-FuelCostCalculator-acknowledgements.markdown */,
+				EB2D2D51E97D40022B1C4D7D49F54022 /* Pods-FuelCostCalculator-acknowledgements.plist */,
+				C7EAE19C1E1B36FC97BEA80D7AE1E20E /* Pods-FuelCostCalculator-dummy.m */,
+				B0E2C68EF01229FB241A750AB1332E30 /* Pods-FuelCostCalculator-Info.plist */,
+				C7EC520340E3591B35D77EFFBB49838A /* Pods-FuelCostCalculator-resources.sh */,
+				34D1DD621E94FB1A24556932C35EE5A3 /* Pods-FuelCostCalculator-umbrella.h */,
+				6FE472706EF2800613865ECD8D438F86 /* Pods-FuelCostCalculator.debug.xcconfig */,
+				34E917441983C5F95D01091FC4C06EFB /* Pods-FuelCostCalculator.release.xcconfig */,
+			);
+			name = "Pods-FuelCostCalculator";
+			path = "Target Support Files/Pods-FuelCostCalculator";
+			sourceTree = "<group>";
+		};
+		EAB3551C3FF2B3DB8CCFFBC1659C14FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43EA7D17120008BE07A85C687DB6DD6F /* GoogleMaps.bundle */,
+				EFEE9849B7C7AD87C2D966A65C2BE002 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF1D4B757E140DC855CC3795C8F8401B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8EBF71D164F76746C72B60BA5B5BCD9 /* Pods-FuelCostCalculator */,
+				009EBE0FA94F9B4F1432E8A6FC58B4FF /* Pods-FuelCostCalculator-FuelCostCalculatorUITests */,
+				6215C8C3DA0C126F3043BDF8A1E0BB06 /* Pods-FuelCostCalculatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24376F5EB8004562077EE607F39BF39B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598360B8D013368EA92629037B382D07 /* Pods-FuelCostCalculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A1367BCE2950893DCF7FCAF00F1ED5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4159DCEDB1F5C89840A3B463E70A0CA9 /* Pods-FuelCostCalculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE447F8E7D9E438C58BD947A3B931CA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F075DB37030CC4809844E6213D1E7 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28B7D5534082ED2B24BBC13F525A30F7 /* Pods-FuelCostCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F5E7A9D0BDE552544FD274F1F9B749 /* Build configuration list for PBXNativeTarget "Pods-FuelCostCalculator" */;
+			buildPhases = (
+				D9A1367BCE2950893DCF7FCAF00F1ED5 /* Headers */,
+				265B08AD4252F958382C033C1C767CE5 /* Sources */,
+				8275D06B5499671A817FA6FA8C88DE52 /* Frameworks */,
+				5D7286FC7D841CFB24C4AE1792D221BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE536FE3789D635418A790728583598A /* PBXTargetDependency */,
+			);
+			name = "Pods-FuelCostCalculator";
+			productName = Pods_FuelCostCalculator;
+			productReference = 873289D299AA0F7A8FC08C55761BFD49 /* Pods-FuelCostCalculator */;
+			productType = "com.apple.product-type.framework";
+		};
+		59BD95934DB8FE42E905547F378565E8 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD9CDD17649E4AE6EC8993DE3C75EF2 /* Build configuration list for PBXNativeTarget "Pods-FuelCostCalculator-FuelCostCalculatorUITests" */;
+			buildPhases = (
+				EE447F8E7D9E438C58BD947A3B931CA3 /* Headers */,
+				E698D71CC96C134964D66BDACE7AC371 /* Sources */,
+				634F0161A7FA9D6628381A6E3514709E /* Frameworks */,
+				BC304D583FEC82147A626744559A6521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096CD970BA6E7DDFC55A776613E0CC55 /* PBXTargetDependency */,
+			);
+			name = "Pods-FuelCostCalculator-FuelCostCalculatorUITests";
+			productName = Pods_FuelCostCalculator_FuelCostCalculatorUITests;
+			productReference = 387CA8953E5BEB79C403ED6C49649E81 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBB47CFFBAB67A5B1739AAFBDA084B91 /* Pods-FuelCostCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF9C35FDC0C3D64CD51B0C32871D53C /* Build configuration list for PBXNativeTarget "Pods-FuelCostCalculatorTests" */;
+			buildPhases = (
+				24376F5EB8004562077EE607F39BF39B /* Headers */,
+				A492DCEA2BECEC7606400A5F641E924A /* Sources */,
+				CCAA27B2D235DA8EDA1D593ECEF49AEF /* Frameworks */,
+				EDAE92763313E695A14E457EE20B0AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5601CDFE81C1A76B0470A1B88CA2DD4D /* PBXTargetDependency */,
+			);
+			name = "Pods-FuelCostCalculatorTests";
+			productName = Pods_FuelCostCalculatorTests;
+			productReference = 4A6575AD7DA15C8108C6C6ACB2C4D141 /* Pods-FuelCostCalculatorTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8099A6B2FAC64B34EA81D849C7947CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				28B7D5534082ED2B24BBC13F525A30F7 /* Pods-FuelCostCalculator */,
+				59BD95934DB8FE42E905547F378565E8 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests */,
+				DBB47CFFBAB67A5B1739AAFBDA084B91 /* Pods-FuelCostCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D7286FC7D841CFB24C4AE1792D221BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC304D583FEC82147A626744559A6521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAE92763313E695A14E457EE20B0AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		942DFFF130A9500FD868DB7E68CB3859 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265B08AD4252F958382C033C1C767CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FD1E07C4B89D0DD4CB10E17B868D9F /* Pods-FuelCostCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A492DCEA2BECEC7606400A5F641E924A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E566EF09030866B69D38C646666452C8 /* Pods-FuelCostCalculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E698D71CC96C134964D66BDACE7AC371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F61F3825649DF1C965C50DD60F2DD45 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096CD970BA6E7DDFC55A776613E0CC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 1D9681A06F170DE7E3FFF0EAA79CA9E4 /* PBXContainerItemProxy */;
+		};
+		5601CDFE81C1A76B0470A1B88CA2DD4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FuelCostCalculator";
+			target = 28B7D5534082ED2B24BBC13F525A30F7 /* Pods-FuelCostCalculator */;
+			targetProxy = 8C890A059BC50743E49E56930EF27EDF /* PBXContainerItemProxy */;
+		};
+		AE536FE3789D635418A790728583598A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = F8EA9A1C7609C6B0396C88FE9948D54F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07F8CB3445FA680DEEE2F2BE19E9A664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBF0EDAD76E6FD43C8087C8D724ECE1 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2871FF9CE6DD60B9298C19F519D31113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E6FE59D5F3D68B625433CA9235E808 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4CDF0E5826D4C627FF4FEA2AF5727275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD34EA22C323C347B44ACC33A8945F7 /* Pods-FuelCostCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelCostCalculatorTests/Pods-FuelCostCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelCostCalculatorTests/Pods-FuelCostCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6DF8E16B1B9F4A4E9FC84B2956AA84D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE472706EF2800613865ECD8D438F86 /* Pods-FuelCostCalculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B024663BA2EF1DAC42FFFE55105F984C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E917441983C5F95D01091FC4C06EFB /* Pods-FuelCostCalculator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B75DC1DE0D641B94CB4E99922D2DF39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E3A93C34D15783F1CA325E680E170F /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE798DD35112381FCC891F4E9D1CF820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E530F1D3A209832F1FC30C4D762FECDC /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE3760F38F4CE258AC443DCF0BAC536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E604224C0DFF7E7103B0EAC3D93A3E2C /* Pods-FuelCostCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelCostCalculatorTests/Pods-FuelCostCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelCostCalculatorTests/Pods-FuelCostCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432269212CA7661476954A7A4DAA814D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2871FF9CE6DD60B9298C19F519D31113 /* Debug */,
+				EE798DD35112381FCC891F4E9D1CF820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF9C35FDC0C3D64CD51B0C32871D53C /* Build configuration list for PBXNativeTarget "Pods-FuelCostCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE3760F38F4CE258AC443DCF0BAC536 /* Debug */,
+				4CDF0E5826D4C627FF4FEA2AF5727275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F5E7A9D0BDE552544FD274F1F9B749 /* Build configuration list for PBXNativeTarget "Pods-FuelCostCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF8E16B1B9F4A4E9FC84B2956AA84D5 /* Debug */,
+				B024663BA2EF1DAC42FFFE55105F984C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD9CDD17649E4AE6EC8993DE3C75EF2 /* Build configuration list for PBXNativeTarget "Pods-FuelCostCalculator-FuelCostCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B75DC1DE0D641B94CB4E99922D2DF39D /* Debug */,
+				07F8CB3445FA680DEEE2F2BE19E9A664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

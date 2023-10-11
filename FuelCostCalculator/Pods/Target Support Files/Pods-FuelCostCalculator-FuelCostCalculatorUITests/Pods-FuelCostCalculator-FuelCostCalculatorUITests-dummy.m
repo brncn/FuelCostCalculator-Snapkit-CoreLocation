@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_FuelCostCalculator_FuelCostCalculatorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_FuelCostCalculator_FuelCostCalculatorUITests
+@end

@@ -1,0 +1,6 @@
+framework module Pods_FuelCostCalculator {
+  umbrella header "Pods-FuelCostCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

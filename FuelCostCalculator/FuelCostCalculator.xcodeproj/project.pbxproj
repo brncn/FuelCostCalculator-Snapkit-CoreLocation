@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5018DD60F74C6330027BF728 /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCF05D14A470EE0786799AA /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework */; };
+		9FF9FCBB9FBDF9DEB77BAF54 /* Pods_FuelCostCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A61354E022EF1810CD6CDC /* Pods_FuelCostCalculator.framework */; };
+		F06B9DC82AD587D4007A8DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B9DC72AD587D4007A8DF2 /* AppDelegate.swift */; };
+		F06B9DCA2AD587D4007A8DF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B9DC92AD587D4007A8DF2 /* SceneDelegate.swift */; };
+		F06B9DCC2AD587D4007A8DF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B9DCB2AD587D4007A8DF2 /* ViewController.swift */; };
+		F06B9DD12AD587D6007A8DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06B9DD02AD587D6007A8DF2 /* Assets.xcassets */; };
+		F06B9DD42AD587D6007A8DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06B9DD22AD587D6007A8DF2 /* LaunchScreen.storyboard */; };
+		F06B9DF92AD58B47007A8DF2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F06B9DF82AD58B47007A8DF2 /* SnapKit */; };
+		F875EE8D79948D00ED6A283B /* Pods_FuelCostCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0816EEC5B0685F7716C1BEEB /* Pods_FuelCostCalculatorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06B9DDB2AD587D7007A8DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06B9DBC2AD587D4007A8DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06B9DC32AD587D4007A8DF2;
+			remoteInfo = FuelCostCalculator;
+		};
+		F06B9DE52AD587D7007A8DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06B9DBC2AD587D4007A8DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06B9DC32AD587D4007A8DF2;
+			remoteInfo = FuelCostCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0816EEC5B0685F7716C1BEEB /* Pods_FuelCostCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelCostCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		168780C83FD50C6B8DA0A6D7 /* Pods-FuelCostCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelCostCalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-FuelCostCalculatorTests/Pods-FuelCostCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5ECE2357B23C924D95A2FC78 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		839900ED27CD78BD379A9911 /* Pods-FuelCostCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelCostCalculator.release.xcconfig"; path = "Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		B3E921B1429327B91EAB4238 /* Pods-FuelCostCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelCostCalculator.debug.xcconfig"; path = "Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		CA966AE34ACF587F920A8BB0 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D98F0C893F019C9CA542C044 /* Pods-FuelCostCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelCostCalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-FuelCostCalculatorTests/Pods-FuelCostCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9A61354E022EF1810CD6CDC /* Pods_FuelCostCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelCostCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCF05D14A470EE0786799AA /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06B9DC42AD587D4007A8DF2 /* FuelCostCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCostCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06B9DC72AD587D4007A8DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06B9DC92AD587D4007A8DF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F06B9DCB2AD587D4007A8DF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F06B9DD02AD587D6007A8DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06B9DD32AD587D6007A8DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06B9DD52AD587D6007A8DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06B9DDA2AD587D7007A8DF2 /* FuelCostCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelCostCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06B9DE42AD587D7007A8DF2 /* FuelCostCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuelCostCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06B9DC12AD587D4007A8DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B9DF92AD58B47007A8DF2 /* SnapKit in Frameworks */,
+				9FF9FCBB9FBDF9DEB77BAF54 /* Pods_FuelCostCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B9DD72AD587D7007A8DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F875EE8D79948D00ED6A283B /* Pods_FuelCostCalculatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B9DE12AD587D7007A8DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5018DD60F74C6330027BF728 /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC8EEE612DC91BF6354D25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A61354E022EF1810CD6CDC /* Pods_FuelCostCalculator.framework */,
+				DDCF05D14A470EE0786799AA /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework */,
+				0816EEC5B0685F7716C1BEEB /* Pods_FuelCostCalculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C5E59515B8BF26F4F4D992 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3E921B1429327B91EAB4238 /* Pods-FuelCostCalculator.debug.xcconfig */,
+				839900ED27CD78BD379A9911 /* Pods-FuelCostCalculator.release.xcconfig */,
+				CA966AE34ACF587F920A8BB0 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig */,
+				5ECE2357B23C924D95A2FC78 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig */,
+				168780C83FD50C6B8DA0A6D7 /* Pods-FuelCostCalculatorTests.debug.xcconfig */,
+				D98F0C893F019C9CA542C044 /* Pods-FuelCostCalculatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F06B9DBB2AD587D4007A8DF2 = {
+			isa = PBXGroup;
+			children = (
+				F06B9DC62AD587D4007A8DF2 /* FuelCostCalculator */,
+				F06B9DC52AD587D4007A8DF2 /* Products */,
+				70C5E59515B8BF26F4F4D992 /* Pods */,
+				4CC8EEE612DC91BF6354D25B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F06B9DC52AD587D4007A8DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06B9DC42AD587D4007A8DF2 /* FuelCostCalculator.app */,
+				F06B9DDA2AD587D7007A8DF2 /* FuelCostCalculatorTests.xctest */,
+				F06B9DE42AD587D7007A8DF2 /* FuelCostCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06B9DC62AD587D4007A8DF2 /* FuelCostCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F06B9DC72AD587D4007A8DF2 /* AppDelegate.swift */,
+				F06B9DC92AD587D4007A8DF2 /* SceneDelegate.swift */,
+				F06B9DCB2AD587D4007A8DF2 /* ViewController.swift */,
+				F06B9DD02AD587D6007A8DF2 /* Assets.xcassets */,
+				F06B9DD22AD587D6007A8DF2 /* LaunchScreen.storyboard */,
+				F06B9DD52AD587D6007A8DF2 /* Info.plist */,
+			);
+			path = FuelCostCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06B9DC32AD587D4007A8DF2 /* FuelCostCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06B9DEE2AD587D7007A8DF2 /* Build configuration list for PBXNativeTarget "FuelCostCalculator" */;
+			buildPhases = (
+				DF8DAB48DD59AB6B7C665854 /* [CP] Check Pods Manifest.lock */,
+				F06B9DC02AD587D4007A8DF2 /* Sources */,
+				F06B9DC12AD587D4007A8DF2 /* Frameworks */,
+				F06B9DC22AD587D4007A8DF2 /* Resources */,
+				C59515C464E57780EB87DC8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuelCostCalculator;
+			packageProductDependencies = (
+				F06B9DF82AD58B47007A8DF2 /* SnapKit */,
+			);
+			productName = FuelCostCalculator;
+			productReference = F06B9DC42AD587D4007A8DF2 /* FuelCostCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F06B9DD92AD587D7007A8DF2 /* FuelCostCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06B9DF12AD587D7007A8DF2 /* Build configuration list for PBXNativeTarget "FuelCostCalculatorTests" */;
+			buildPhases = (
+				9C2946829BA85DD48F24ABDF /* [CP] Check Pods Manifest.lock */,
+				F06B9DD62AD587D7007A8DF2 /* Sources */,
+				F06B9DD72AD587D7007A8DF2 /* Frameworks */,
+				F06B9DD82AD587D7007A8DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06B9DDC2AD587D7007A8DF2 /* PBXTargetDependency */,
+			);
+			name = FuelCostCalculatorTests;
+			productName = FuelCostCalculatorTests;
+			productReference = F06B9DDA2AD587D7007A8DF2 /* FuelCostCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F06B9DE32AD587D7007A8DF2 /* FuelCostCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06B9DF42AD587D7007A8DF2 /* Build configuration list for PBXNativeTarget "FuelCostCalculatorUITests" */;
+			buildPhases = (
+				C2621944B44E796A7369328E /* [CP] Check Pods Manifest.lock */,
+				F06B9DE02AD587D7007A8DF2 /* Sources */,
+				F06B9DE12AD587D7007A8DF2 /* Frameworks */,
+				F06B9DE22AD587D7007A8DF2 /* Resources */,
+				B5D330228C87F1FD619F5BCF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06B9DE62AD587D7007A8DF2 /* PBXTargetDependency */,
+			);
+			name = FuelCostCalculatorUITests;
+			productName = FuelCostCalculatorUITests;
+			productReference = F06B9DE42AD587D7007A8DF2 /* FuelCostCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06B9DBC2AD587D4007A8DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F06B9DC32AD587D4007A8DF2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F06B9DD92AD587D7007A8DF2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F06B9DC32AD587D4007A8DF2;
+					};
+					F06B9DE32AD587D7007A8DF2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F06B9DC32AD587D4007A8DF2;
+					};
+				};
+			};
+			buildConfigurationList = F06B9DBF2AD587D4007A8DF2 /* Build configuration list for PBXProject "FuelCostCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06B9DBB2AD587D4007A8DF2;
+			packageReferences = (
+				F06B9DF72AD58B47007A8DF2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = F06B9DC52AD587D4007A8DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06B9DC32AD587D4007A8DF2 /* FuelCostCalculator */,
+				F06B9DD92AD587D7007A8DF2 /* FuelCostCalculatorTests */,
+				F06B9DE32AD587D7007A8DF2 /* FuelCostCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06B9DC22AD587D4007A8DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B9DD42AD587D6007A8DF2 /* LaunchScreen.storyboard in Resources */,
+				F06B9DD12AD587D6007A8DF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B9DD82AD587D7007A8DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B9DE22AD587D7007A8DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C2946829BA85DD48F24ABDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuelCostCalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D330228C87F1FD619F5BCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuelCostCalculator-FuelCostCalculatorUITests/Pods-FuelCostCalculator-FuelCostCalculatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2621944B44E796A7369328E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuelCostCalculator-FuelCostCalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59515C464E57780EB87DC8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuelCostCalculator/Pods-FuelCostCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8DAB48DD59AB6B7C665854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuelCostCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06B9DC02AD587D4007A8DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B9DCC2AD587D4007A8DF2 /* ViewController.swift in Sources */,
+				F06B9DC82AD587D4007A8DF2 /* AppDelegate.swift in Sources */,
+				F06B9DCA2AD587D4007A8DF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B9DD62AD587D7007A8DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06B9DE02AD587D7007A8DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06B9DDC2AD587D7007A8DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06B9DC32AD587D4007A8DF2 /* FuelCostCalculator */;
+			targetProxy = F06B9DDB2AD587D7007A8DF2 /* PBXContainerItemProxy */;
+		};
+		F06B9DE62AD587D7007A8DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06B9DC32AD587D4007A8DF2 /* FuelCostCalculator */;
+			targetProxy = F06B9DE52AD587D7007A8DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F06B9DD22AD587D6007A8DF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06B9DD32AD587D6007A8DF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06B9DEC2AD587D7007A8DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06B9DED2AD587D7007A8DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06B9DEF2AD587D7007A8DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E921B1429327B91EAB4238 /* Pods-FuelCostCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U2747RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuelCostCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FuelCostCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F06B9DF02AD587D7007A8DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839900ED27CD78BD379A9911 /* Pods-FuelCostCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U2747RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuelCostCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FuelCostCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F06B9DF22AD587D7007A8DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168780C83FD50C6B8DA0A6D7 /* Pods-FuelCostCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U2747RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FuelCostCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelCostCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuelCostCalculator";
+			};
+			name = Debug;
+		};
+		F06B9DF32AD587D7007A8DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98F0C893F019C9CA542C044 /* Pods-FuelCostCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U2747RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FuelCostCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuelCostCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FuelCostCalculator";
+			};
+			name = Release;
+		};
+		F06B9DF52AD587D7007A8DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA966AE34ACF587F920A8BB0 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U2747RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FuelCostCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuelCostCalculator;
+			};
+			name = Debug;
+		};
+		F06B9DF62AD587D7007A8DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECE2357B23C924D95A2FC78 /* Pods-FuelCostCalculator-FuelCostCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U2747RPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.FuelCostCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FuelCostCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06B9DBF2AD587D4007A8DF2 /* Build configuration list for PBXProject "FuelCostCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06B9DEC2AD587D7007A8DF2 /* Debug */,
+				F06B9DED2AD587D7007A8DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06B9DEE2AD587D7007A8DF2 /* Build configuration list for PBXNativeTarget "FuelCostCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06B9DEF2AD587D7007A8DF2 /* Debug */,
+				F06B9DF02AD587D7007A8DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06B9DF12AD587D7007A8DF2 /* Build configuration list for PBXNativeTarget "FuelCostCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06B9DF22AD587D7007A8DF2 /* Debug */,
+				F06B9DF32AD587D7007A8DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06B9DF42AD587D7007A8DF2 /* Build configuration list for PBXNativeTarget "FuelCostCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06B9DF52AD587D7007A8DF2 /* Debug */,
+				F06B9DF62AD587D7007A8DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F06B9DF72AD58B47007A8DF2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F06B9DF82AD58B47007A8DF2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F06B9DF72AD58B47007A8DF2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F06B9DBC2AD587D4007A8DF2 /* Project object */;
+}
