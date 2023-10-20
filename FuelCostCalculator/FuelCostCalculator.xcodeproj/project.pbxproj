@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5018DD60F74C6330027BF728 /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDCF05D14A470EE0786799AA /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework */; };
 		9FF9FCBB9FBDF9DEB77BAF54 /* Pods_FuelCostCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A61354E022EF1810CD6CDC /* Pods_FuelCostCalculator.framework */; };
+		F0692B392AE2A043002F9D06 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0692B382AE2A043002F9D06 /* FontSize.swift */; };
+		F0692B3E2AE2A17D002F9D06 /* RadiusSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0692B3D2AE2A17D002F9D06 /* RadiusSize.swift */; };
 		F06B9DC82AD587D4007A8DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B9DC72AD587D4007A8DF2 /* AppDelegate.swift */; };
 		F06B9DCA2AD587D4007A8DF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B9DC92AD587D4007A8DF2 /* SceneDelegate.swift */; };
 		F06B9DCC2AD587D4007A8DF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B9DCB2AD587D4007A8DF2 /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 		D98F0C893F019C9CA542C044 /* Pods-FuelCostCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelCostCalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-FuelCostCalculatorTests/Pods-FuelCostCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		D9A61354E022EF1810CD6CDC /* Pods_FuelCostCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelCostCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCF05D14A470EE0786799AA /* Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelCostCalculator_FuelCostCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0692B382AE2A043002F9D06 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		F0692B3D2AE2A17D002F9D06 /* RadiusSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusSize.swift; sourceTree = "<group>"; };
 		F06B9DC42AD587D4007A8DF2 /* FuelCostCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelCostCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06B9DC72AD587D4007A8DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06B9DC92AD587D4007A8DF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,49 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F0692B332AE29FAB002F9D06 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F06B9DD22AD587D6007A8DF2 /* LaunchScreen.storyboard */,
+				F06B9DC72AD587D4007A8DF2 /* AppDelegate.swift */,
+				F06B9DC92AD587D4007A8DF2 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F0692B342AE29FE9002F9D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F06B9DCB2AD587D4007A8DF2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0692B352AE2A009002F9D06 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F0692B372AE2A025002F9D06 /* Size */,
+				F0692B362AE2A01D002F9D06 /* Theme */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F0692B362AE2A01D002F9D06 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F0692B372AE2A025002F9D06 /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				F0692B382AE2A043002F9D06 /* FontSize.swift */,
+				F0692B3D2AE2A17D002F9D06 /* RadiusSize.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
 		F06B9DBB2AD587D4007A8DF2 = {
 			isa = PBXGroup;
 			children = (
@@ -131,11 +178,10 @@
 		F06B9DC62AD587D4007A8DF2 /* FuelCostCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				F06B9DC72AD587D4007A8DF2 /* AppDelegate.swift */,
-				F06B9DC92AD587D4007A8DF2 /* SceneDelegate.swift */,
-				F06B9DCB2AD587D4007A8DF2 /* ViewController.swift */,
+				F0692B352AE2A009002F9D06 /* Common */,
+				F0692B342AE29FE9002F9D06 /* Controller */,
+				F0692B332AE29FAB002F9D06 /* Base */,
 				F06B9DD02AD587D6007A8DF2 /* Assets.xcassets */,
-				F06B9DD22AD587D6007A8DF2 /* LaunchScreen.storyboard */,
 				F06B9DD52AD587D6007A8DF2 /* Info.plist */,
 			);
 			path = FuelCostCalculator;
@@ -386,8 +432,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F06B9DCC2AD587D4007A8DF2 /* ViewController.swift in Sources */,
+				F0692B3E2AE2A17D002F9D06 /* RadiusSize.swift in Sources */,
 				F06B9DC82AD587D4007A8DF2 /* AppDelegate.swift in Sources */,
 				F06B9DCA2AD587D4007A8DF2 /* SceneDelegate.swift in Sources */,
+				F0692B392AE2A043002F9D06 /* FontSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

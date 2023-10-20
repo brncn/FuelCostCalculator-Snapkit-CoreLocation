@@ -10,6 +10,7 @@ import SnapKit
 import UIKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
+    
     private var locationManager = CLLocationManager()
     private var departureCoordinate: CLLocationCoordinate2D?
     private var arrivingCoordinate: CLLocationCoordinate2D?
@@ -18,7 +19,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let mainText = UILabel()
         mainText.text = "Yakıt Ücreti Hesaplayıcı"
         mainText.textAlignment = .center
-        mainText.font = .systemFont(ofSize: 30)
+        mainText.font = .systemFont(ofSize: FontSize.headline)
         mainText.textColor = .white
         return mainText
     }()
@@ -26,26 +27,26 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let departures = UITextField()
         departures.placeholder = "Kalkış İli (Örn: Adana)"
         departures.textAlignment = .center
-        departures.layer.cornerRadius = 10
+        departures.layer.cornerRadius = RadiusSize.medium.rawValue
         return departures
     }()
     private let arrivingTextField: UITextField = {
         let arriving = UITextField()
         arriving.placeholder = "Varış İli (Örn: Bolu)"
         arriving.textAlignment = .center
-        arriving.layer.cornerRadius = 10
+        arriving.layer.cornerRadius = RadiusSize.medium.rawValue
         return arriving
     }()
     private let fuelAskLabel: UILabel = {
         let askFuel = UILabel()
         askFuel.text = "Ortalama Yakıt Tüketiminiz: "
         askFuel.textColor = .white
-        askFuel.font = .systemFont(ofSize: 19)
+        askFuel.font = .systemFont(ofSize: FontSize.body)
         return askFuel
     }()
     private let askFuelTextField: UITextField = {
         let askFuel = UITextField()
-        askFuel.layer.cornerRadius = 15
+        askFuel.layer.cornerRadius = RadiusSize.large.rawValue
         askFuel.textAlignment = .center
         askFuel.keyboardType = .decimalPad
         return askFuel
@@ -54,12 +55,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let currentFuel = UILabel()
         currentFuel.text = "Güncel Litre Fiyatı: "
         currentFuel.textColor = .white
-        currentFuel.font = .systemFont(ofSize: 19)
+        currentFuel.font = .systemFont(ofSize: FontSize.body)
         return currentFuel
     }()
     private let currentFuelPrice: UITextField = {
         let fuelPrice = UITextField()
-        fuelPrice.layer.cornerRadius = 15
+        fuelPrice.layer.cornerRadius = RadiusSize.large.rawValue
         fuelPrice.textAlignment = .center
         fuelPrice.keyboardType = .decimalPad
         return fuelPrice
@@ -68,13 +69,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let calculate = UIButton()
         calculate.backgroundColor = UIColor(red: 0.60, green: 0.70, blue: 2.70, alpha: 1)
         calculate.setTitle("Hesapla", for: .normal)
-        calculate.layer.cornerRadius = 10
+        calculate.layer.cornerRadius = RadiusSize.medium.rawValue
         return calculate
     }()
     private let priceLabel: UILabel = {
         let price = UILabel()
         price.textColor = .white
-        price.font = .systemFont(ofSize: 25)
+        price.font = .systemFont(ofSize: FontSize.subHeadline)
         price.textAlignment = .center
         return price
     }()
